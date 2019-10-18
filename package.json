@@ -1,8 +1,8 @@
 {
-  "name": "react-vis",
-  "version": "1.11.7",
+  "name": "react-vis-updated",
+  "version": "1.11.8",
   "license": "MIT",
-  "author": "Visualization Team <visualization@uber.com>",
+  "author": "Dustin Kane <dustinpkane@gmail.com>",
   "description": "Data visualization library based on React and d3.",
   "main": "dist",
   "module": "es",
@@ -13,11 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/uber-common/react-vis.git"
+    "url": "https://github.com/ranneyd/react-vis.git"
   },
   "bugs": {
-    "url": "https://github.com/uber-common/react-vis/issues/new",
-    "email": "visualization@uber.com"
+    "url": "https://github.com/ranneyD/react-vis/issues/new"
   },
   "scripts": {
     "docs": "./publish-docs.sh",
