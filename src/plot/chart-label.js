@@ -45,8 +45,8 @@ class ChartLabel extends React.PureComponent {
       xPercent,
       yPercent
     } = this.props;
-    const width = innerWidth + (includeMargin ? marginLeft + marginRight : 0);
-    const height = innerHeight + (includeMargin ? marginTop + marginBottom : 0);
+    const width = innerWidth - (includeMargin ? marginLeft + marginRight : 0);
+    const height = innerHeight - (includeMargin ? marginTop + marginBottom : 0);
     const xPos = width * xPercent + (includeMargin ? 0 : marginLeft);
     const yPos = height * yPercent + (includeMargin ? marginTop : 0);
     return (
