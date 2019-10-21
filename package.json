@@ -1,6 +1,6 @@
 {
   "name": "react-vis-updated",
-  "version": "1.11.10",
+  "version": "1.11.11",
   "license": "MIT",
   "author": "Dustin Kane <dustinpkane@gmail.com>",
   "description": "Data visualization library based on React and d3.",
